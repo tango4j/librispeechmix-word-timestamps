@@ -1,0 +1,39 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "librispeechmix-word-timestamps"
+version = "1.0.0"
+description = "Reproducible word timestamps and boundary evaluation for LibriSpeechMix"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+authors = [{ name = "tango4j" }]
+keywords = ["speech-recognition", "word-timestamps", "librispeech", "multispeaker"]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "License :: OSI Approved :: Apache Software License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+[project.scripts]
+lsmix-ts-build = "librispeechmix_timestamps.build:main"
+lsmix-ts-eval = "librispeechmix_timestamps.evaluate:main"
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[project.urls]
+Homepage = "https://github.com/tango4j/librispeechmix-word-timestamps"
+Repository = "https://github.com/tango4j/librispeechmix-word-timestamps"
+Issues = "https://github.com/tango4j/librispeechmix-word-timestamps/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/librispeechmix_timestamps"]
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]

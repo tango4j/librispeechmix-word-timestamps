@@ -1,0 +1,59 @@
+{
+  "files": {
+    "dev-clean-1mix.jsonl.gz": {
+      "records": 2703,
+      "reference_words": 54402,
+      "sha256": "de5f096196c9192a30135a6758571051ff51fba3697c7ef280fdc69a5e32df59",
+      "source_list_sha256": "6cd4a30e8aa1fdb41a077ae57e67f5cedbf2d552097cea2b63ecf1522cd7448e"
+    },
+    "dev-clean-2mix.jsonl.gz": {
+      "records": 2703,
+      "reference_words": 108804,
+      "sha256": "562c9ea7215fabb6d8691946421f3fbd4fd378b94943d37ad8dd1ba0603fe50b",
+      "source_list_sha256": "27137e7a3293ddbb97f12584449e25d025f7581205e98b7c59787bb223c98abc"
+    },
+    "dev-clean-3mix.jsonl.gz": {
+      "records": 2703,
+      "reference_words": 163206,
+      "sha256": "e7bf71f13676f67fa82dc941d1d2d7a3ee815e370e94b9435f6345f729791a85",
+      "source_list_sha256": "06f208aeefb7b363c49fafcbbc13374063e338a4bd0ae4fc6598c022b80e2399"
+    },
+    "test-clean-1mix.jsonl.gz": {
+      "records": 2620,
+      "reference_words": 52576,
+      "sha256": "faf90a0ad3106a7a061288d8b40dcb3c5ff25703ffdb7e068462224733f43cdd",
+      "source_list_sha256": "7c5a40322f7e578cc6e47eb8d68cfd6b7cb20944a980f2a6afdc7ac7db9b1076"
+    },
+    "test-clean-2mix.jsonl.gz": {
+      "records": 2620,
+      "reference_words": 105152,
+      "sha256": "3527ad5fe20104fc196b8c184a592f47e9e81cfd802d896ab974734dc44ceac9",
+      "source_list_sha256": "95a01945c855c1ec7d1dc6105beff70e6d35e3372a5e2bec40bcaa4b372d216d"
+    },
+    "test-clean-3mix.jsonl.gz": {
+      "records": 2620,
+      "reference_words": 157728,
+      "sha256": "4c921ca0bd60310068a74ef2c9efde55b991ad1d9ea1bc0ba83c1ad2654f23b8",
+      "source_list_sha256": "b98134a8c5e5739c53d12a0e920242ee380c3be00dce6e5b77331d7d26db695e"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": {
+    "librispeech_alignments": {
+      "alignment_files": 184,
+      "alignment_tree_sha256": "a59eb63569cb5d1ae2cb997fc8ab37420d50faf0a53091f616cc0dd2ed2e0507",
+      "commit": "a34135ebf3a781e3de0b9f7fb073ca3a76311cf7",
+      "url": "https://github.com/CorentinJ/librispeech-alignments"
+    },
+    "librispeechmix": {
+      "commit": "869aa26ab37b60418898549447ff62d596c73ec6",
+      "url": "https://github.com/NaoyukiKanda/LibriSpeechMix"
+    }
+  },
+  "timestamp_precision_decimals": 3,
+  "timestamp_unit": "seconds",
+  "totals": {
+    "records": 15969,
+    "reference_words": 641868
+  }
+}

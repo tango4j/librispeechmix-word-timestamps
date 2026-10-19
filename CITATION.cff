@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use these annotations, cite this repository, LibriSpeechMix, and LibriSpeech."
+title: "LibriSpeechMix Word Timestamps"
+type: dataset
+version: 1.0.0
+date-released: 2026-10-19
+authors:
+  - name: "tango4j"
+repository-code: "https://github.com/tango4j/librispeechmix-word-timestamps"
+url: "https://github.com/tango4j/librispeechmix-word-timestamps"
+keywords:
+  - automatic speech recognition
+  - word timestamps
+  - overlapped speech
+  - LibriSpeechMix
